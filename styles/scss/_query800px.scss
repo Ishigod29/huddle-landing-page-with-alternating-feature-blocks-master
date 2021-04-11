@@ -1,0 +1,134 @@
+@media screen and (max-width:800px) {
+    .header{
+        height: 1200px;
+
+        .bg__img{
+            height: 100%;
+            background-repeat: no-repeat;
+            background-size: cover;
+            width: 100%;
+
+            .hero{
+                padding-top: 100px;
+                flex-direction: column;
+
+                .hero__text{
+                    width: 90%;
+                    text-align: center;
+                    justify-content: center;
+                    align-items: center;
+                    margin-bottom: 80px;
+
+                    .title{
+                        width: 80%;
+                        text-align: center;
+                        margin: 0 auto;
+                        font-size: 40px;
+                    }
+
+                    .hero__copy{
+                        width: 80%;
+                        font-size: 25px;
+                        margin: 30px auto;
+                    }
+
+                    .cta{
+                        text-align: center;
+                        margin: 0 auto;
+                        width: 60%;
+                        padding: 20px 30px;
+                        font-size: 18px;
+                    }
+                }
+    
+                .hero__picture{
+                    width: 90%;
+                }  
+            }
+        }
+    }
+
+    .main{
+        .cards__container{
+            .card{
+                width: 80%;
+                height: 800px;
+
+                .card__margin{
+                    width: 100%;
+                    flex-direction: column-reverse;
+                    justify-content: space-evenly;
+
+                    .card__picture{
+                        width: 100%;
+                    }
+
+                    .card__text{
+                        width: 100%;
+        
+                        .title{
+                            width: 93%;
+                            text-align: center;
+                            font-size: 40px;
+                        }
+        
+                        .card__copy{
+                            font-size: 20px;
+                            width: 90%;
+                            text-align: center;
+                        }
+                    }
+                }
+            }
+
+            .card:nth-of-type(2){
+                .card__margin{
+                    flex-direction: column-reverse;
+                }
+            }
+        }
+    }
+
+    .suscribe{
+        .suscribe__card{
+            .title{
+                text-align: center;
+            }
+
+            .cta{
+                width: 80%;
+            }
+        }
+    }
+
+    .footer{
+        .footer__sections{
+            flex-direction: column;
+
+            .section{
+                width: 100%;
+                margin: 0;
+                height: 80px;
+                .footer__links{
+                    height: 100%;
+                    align-items: flex-start;
+                    margin: 50px 0;
+                    li{
+                        a{
+                            width: 100%;
+                        }
+                    }
+                }
+
+                .social{
+                    margin: 20px 0;
+                    text-align: center;
+                }
+            }
+        }
+
+        .footer__copyright{
+            text-align: center;
+        }
+    }
+}
